@@ -15,7 +15,7 @@ It is very easy to connect the HC-SR04 module to the Arduino. For this example, 
 ![HC-SR04 with Arduino](extras/HC-SR04-with-Arduino.jpg?raw=true "HC-SR04 with Arduino")
 
 How to use:
----------------
+--------------
 The idea is to provide a simpler environment possible. To do this, simply follow the steps:
 
 1. **Installing**
@@ -36,6 +36,7 @@ The idea is to provide a simpler environment possible. To do this, simply follow
     ```c++
     Ultrasonic.distanceRead()
     ```
+    
 5. **Only this?**
 
     Yes. That's it. By default, the value returned from the function  ```distanceRead()``` is the distance in centimeters.
@@ -61,4 +62,4 @@ Ultrasonic by [Erick Simões](http://ericksimoes.com.br/ "Erick Simões") is lic
 Based on the work of Carl John Nobile available [here](http://wiki.tetrasys-design.net/HCSR04Ultrasonic).
 Feel free to contact the author on Twitter: [@AloErickSimoes](https://twitter.com/AloErickSimoes)
 
-See [LICENSE](https://github.com/ErickSimoes/Ultrasonic/blob/master/LICENSE) for details.
+See [LICENSE](https://github.com/ErickSimoes/Ultrasonic/blob/master/LICENSE) for more details.
